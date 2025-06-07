@@ -120,7 +120,7 @@ body {
 .footer {
   background-color: #0f0f0f;
   color: #ffffff;
-  padding: 0,5rem 0,5rem; /* Mengurangi padding atas dan bawah */
+  padding: 1rem 1rem; /* Mengurangi padding atas dan bawah */
   text-align: center;
   font-family: "Times New Roman", Times, serif;
   font-style: normal;
@@ -132,15 +132,3 @@ body {
   margin: 0 auto;
   padding: 0; /* Pastikan tidak ada padding tambahan */
 }
-
-.social-links {
-  margin-top: 0.5rem; /* Sesuaikan jika diperlukan */
-}
-
-.social-links a {
-  color: #ffffff;
-  margin: 0 0.5rem;
-  font-size: 1rem;
-  transition: color 0.3s ease;
-}
-
