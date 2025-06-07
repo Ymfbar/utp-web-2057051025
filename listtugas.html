@@ -5,20 +5,87 @@
     <title>Tentang - Fikri Barra</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/custom.css">
+    <style>
+    /* Gaya Umum */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 30px;
+    }
+
+    /* Kontainer Grid */
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+
+    /* Gaya Umum untuk Setiap Tugas */
+    .grid-container > div {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    /* Gaya Khusus untuk Masing-masing Tugas */
+    .tugas1 {
+      background-color: #e3f2fd;
+    }
+
+    .tugas2 {
+      background-color: #fce4ec;
+    }
+
+    .tugas3 {
+      background-color: #e8f5e9;
+    }
+
+    .tugas4 {
+      background-color: #fff3e0;
+    }
+
+    /* Responsif untuk Layar Kecil */
+    @media (max-width: 768px) {
+      .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .grid-container {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
 </head>
 <body>
-    <nav class="navbar navbar-light navbar-expand-lg bg-light py-4" style="background-color: white !important; ">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <img src="assets/logobara.png" alt="Logo" width="120px">
-            </a>
-        </div>
-    </nav>
-
-    <div class="container mt-5">
-        <h1 class="text-center">Tentang Saya</h1>
-        <p class="mt-4">Halo! Saya Fikri Barra, mahasiswa semester 10 di Universitas Lampung, jurusan Ilmu Komputer. Saya suka belajar hal baru, terutama yang berhubungan dengan teknologi dan desain.</p>
-        <p>Di waktu luang, saya biasanya tidur, makan, atau eksplor coding buat web kek gini, hehe.</p>
+    <h1>Daftar Tugas</h1>
+  <div class="grid-container">
+    <div class="tugas1">
+      <h2>Tugas 1</h2>
+      <p>Deskripsi tugas pertama.</p>
     </div>
+    <div class="tugas2">
+      <h2>Tugas 2</h2>
+      <p>Deskripsi tugas kedua.</p>
+    </div>
+    <div class="tugas3">
+      <h2>Tugas 3</h2>
+      <p>Deskripsi tugas ketiga.</p>
+    </div>
+    <div class="tugas4">
+      <h2>Tugas 4</h2>
+      <p>Deskripsi tugas keempat.</p>
+    </div>
+  </div>
 </body>
 </html>
