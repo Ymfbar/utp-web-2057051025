@@ -120,9 +120,10 @@ body {
 .footer {
   background-color: #0f0f0f;
   color: #ffffff;
-  padding: 1rem 1rem; /* Mengurangi padding atas dan bawah */
+  padding: 0,5rem 0,5rem; /* Mengurangi padding atas dan bawah */
   text-align: center;
   font-family: "Times New Roman", Times, serif;
+  font-style: normal;
   box-sizing: border-box;
 }
 
