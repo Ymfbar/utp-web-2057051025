@@ -120,18 +120,20 @@ body {
 .footer {
   background-color: #0f0f0f;
   color: #ffffff;
-  padding: 2rem 1rem;
+  padding: 1rem 1rem; /* Mengurangi padding atas dan bawah */
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
 }
 
 .footer-content {
   max-width: 800px;
   margin: 0 auto;
+  padding: 0; /* Pastikan tidak ada padding tambahan */
 }
 
 .social-links {
-  margin-top: 1rem;
+  margin-top: 0.5rem; /* Sesuaikan jika diperlukan */
 }
 
 .social-links a {
@@ -144,3 +146,4 @@ body {
 .social-links a:hover {
   color: #00ffcc;
 }
+
