@@ -50,15 +50,19 @@
     /* Responsif untuk Layar Kecil */
     @media (max-width: 768px) {
       .grid-container {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
       }
     }
 
     @media (max-width: 480px) {
       .grid-container {
         grid-template-columns: 1fr;
-        gap: 20px;
       }
+    }
+
+    .grid-container div:nth-child(5) {
+    margin-top: 40px;
     }
   </style>
 </head>
